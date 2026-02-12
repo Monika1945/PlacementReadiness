@@ -1,0 +1,128 @@
+placement-readiness-system/
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.js
+│   │   │   ├── Footer.js
+│   │   │   └── ProtectedRoute.js
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── Login.js
+│   │   │   ├── Signup.js
+│   │   │   ├── Assessment.js
+│   │   │   ├── PersonalDetails.js
+│   │   │   ├── Result.js
+│   │   │   ├── Recommendation.js
+│   │   │   ├── History.js
+│   │   │   └── FinalPage.js
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── styles/
+│   │   │   └── main.css
+│   │   │
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   └── package.json
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Student.js
+│   │   ├── Question.js
+│   │   ├── Assessment.js
+│   │   ├── Result.js
+│   │   └── Recommendation.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── studentRoutes.js
+│   │   ├── assessmentRoutes.js
+│   │   └── resultRoutes.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── studentController.js
+│   │   ├── assessmentController.js
+│   │   └── resultController.js
+│   │
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   │
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+
+========================================================================================================
+
+placement-readiness-system/
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.js          // includes Logout button
+│   │   │   ├── Footer.js
+│   │   │   └── ProtectedRoute.js
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── Signup.js
+│   │   │   ├── Login.js
+│   │   │   ├── PersonalDetails.js
+│   │   │   ├── PersonalInfo.js
+│   │   │   ├── ResultRecommendation.js
+│   │   │   └── History.js
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js             // all API calls
+│   │   │
+│   │   ├── styles/
+│   │   │   └── main.css
+│   │   │
+│   │   ├── App.js                 // routing
+│   │   └── index.js
+│   │
+│   └── package.json
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js                  // database connection
+│   │
+│   ├── models/
+│   │   ├── User.js                // login/signup
+│   │   ├── Student.js             // personal info & details
+│   │   ├── Result.js              // readiness result
+│   │   └── Recommendation.js      // suggestions
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js          // signup, login, logout
+│   │   ├── studentRoutes.js       // personal info/details
+│   │   └── resultRoutes.js        // result & recommendation
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── studentController.js
+│   │   └── resultController.js
+│   │
+│   ├── middleware/
+│   │   └── authMiddleware.js      // protected routes
+│   │
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+
